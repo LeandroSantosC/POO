@@ -1,0 +1,18 @@
+--Sobrecarga(Overload) - Compilação--
+
+--Sobrescrita(Override) - Execução--
+
+DEFINIÇÃO: É o conceito que resolve o problema da ambiguidade em nome de método de forma dinâmica(execução).
+Para isso funcionar a Sobrescrita precisa do conceito de Subtipos(Herança por exemplo)
+
+OBS: A assinatura deve ser a mesma na classe e nas subclasses
+Assinatura = nome + Lista de Parametro
+
+--Classe abstrata--
+
+DEFINIÇÃO: É uma classe que representa uma idéia, "um template", para ser implementado em suas subclasses.
+Uma classe abstrata não pode ser instaciada, não vai para memória.
+Uma classe abstrata pode ter métodos abstratos, métodos comuns, atributos e construtores.
+
+Metodo abstrato: é um método sem corpo de código. Serve apenas para ser Sobrescrito.
+OBS: É obrigatório implementar/sobrescrever o método abstrato
