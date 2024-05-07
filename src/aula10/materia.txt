@@ -1,0 +1,20 @@
+    CLASSE ABSTRATA
+
+se os métodos não tem sentido na classe, e a implementação depende das subclasses. Então é uma classe abstrata.
+1- Classes abstratas podem ter construtores.
+
+    INTERFACES
+
+similar a uma classe abstrata, porém possui algumas diferenças:
+1- Não pode ter atributo. Só pode ter constantes.
+2- Todo membro é publico automaticamente.
+3- Todo método é automaticamente abstrato. Até que se diga o contrário.(JAVA 8)
+4- Pode possuir métodos estáticos.
+5- Uma classe pode implementar múltiplas interfaces.
+
+OBS: QUANDO UMA CLASSE NÃO TEM ATRIBUTO, COLOCAR ELA COMO INTERFACE.
+
+    POLIMORFISMO DE SUBTIPOS
+
+Dado um contexto computacional (referencia, parametro) que depende de um tipo(classes, records, interfaces) T pode-se aceitar T ou qualquer subtipo de T.
+Em suma voce pode referenciar um objeto de várias formas.
